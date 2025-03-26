@@ -1,0 +1,30 @@
+projet:
+  nom: Analyse de données clients
+  version: 1.2
+  actif: true
+  date: 2025-03-23
+
+clients:
+  - id: 101
+    nom: Alice Dupont
+    email: alice@example.com
+    pays: France
+    abonnement: premium
+    achats:
+      - produit: Livre Python
+        prix: 35.99
+        date: 2025-01-10
+      - produit: Cours vidéo
+        prix: 89.90
+        date: 2025-02-05
+
+  - id: 102
+    nom: Bob Martin
+    email: bob@example.com
+    pays: Canada
+    abonnement: gratuit
+    achats: []
+
+statistiques:
+  total_clients: 2
+  total_abonnés_premium: 1
